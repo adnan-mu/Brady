@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace BradyCodeChallenge.Service
 {
-    internal class CalculatorService : ICalculatorService   
+    public class CalculatorService : ICalculatorService   
     {
         public IEnumerable<XElement> CalculateCoalTotal(IEnumerable<CoalGenerator> coalData, ReferenceData referenceData)
         {

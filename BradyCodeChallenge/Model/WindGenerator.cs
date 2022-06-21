@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BradyCodeChallenge.Model
 {
-    internal class WindGenerator : EnergyGenerator
+    public class WindGenerator : EnergyGenerator
     {
         public string Location { get; set; }
     }

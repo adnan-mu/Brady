@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BradyCodeChallenge.Model
 {
-    internal class GasGenerator : EnergyGenerator
+    public class GasGenerator : EnergyGenerator
     {
         public decimal EmissionsRating { get; set; }
     }

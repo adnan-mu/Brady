@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BradyCodeChallenge.Model
 {
-    internal class ReferenceData
+    public class ReferenceData
     {
         public FactorData valueFactor;
         public FactorData emissionFactor;

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BradyCodeChallenge", "BradyCodeChallenge\BradyCodeChallenge.csproj", "{B23D1B4E-12BE-4B0B-A915-8678496B6F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BradyCodeChallenge", "BradyCodeChallenge\BradyCodeChallenge.csproj", "{B23D1B4E-12BE-4B0B-A915-8678496B6F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BradyCodeChallenge.Test.Unit", "BradyCodeChallenge.Test.Unit\BradyCodeChallenge.Test.Unit.csproj", "{40E73737-3C2B-4A90-96ED-64C2EF97E698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B23D1B4E-12BE-4B0B-A915-8678496B6F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23D1B4E-12BE-4B0B-A915-8678496B6F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23D1B4E-12BE-4B0B-A915-8678496B6F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E73737-3C2B-4A90-96ED-64C2EF97E698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E73737-3C2B-4A90-96ED-64C2EF97E698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E73737-3C2B-4A90-96ED-64C2EF97E698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E73737-3C2B-4A90-96ED-64C2EF97E698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

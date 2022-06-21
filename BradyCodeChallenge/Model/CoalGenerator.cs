@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BradyCodeChallenge.Model
 {
-    internal class CoalGenerator : EnergyGenerator
+    public class CoalGenerator : EnergyGenerator
     {
         public decimal TotalHeatInput { get; set; }
         public decimal ActualNetGeneration { get; set; }
